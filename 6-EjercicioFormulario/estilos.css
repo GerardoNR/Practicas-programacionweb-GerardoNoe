@@ -1,0 +1,63 @@
+/* Estilo general del formulario */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal para el texto */
+    background-color: #d8cbcb; /* Color de fondo de la página */
+    text-align: center; /* Centra el texto en la página */
+}
+
+/* Estilo del formulario */
+form {
+    background-color: rgb(238, 233, 233); /* Color de fondo del formulario */
+    padding: 40px; /* Espaciado interno para mayor comodidad */
+    border-radius: 20px; /* Bordes redondeados */
+    width: 400px; /* Ancho del formulario */
+    margin: auto; /* Centrar el formulario horizontalmente */
+    box-shadow: 0px 0px 10px rgba(197, 13, 13, 0.1); /* Sombra ligera alrededor del formulario */
+}
+
+/* Estilo de las etiquetas (label) */
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia la fuente */
+    font-size: 20px; /* Tamaño del texto de las etiquetas */
+    font-weight: 500; /* Peso de la fuente (ni muy delgada ni muy gruesa) */
+    color: #d41111f1; /* Color del texto (rojo oscuro) */
+}
+
+/* Estilo del título principal (h1) */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fuente elegante */
+    color: rgb(248, 4, 4); /* Color rojo fuerte */
+    font-size: 24px; /* Tamaño del texto del título */
+}
+
+/* Estilo del subtítulo (h2) */
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fuente similar al título */
+    color: rgb(146, 18, 18); /* Color rojo más oscuro */
+    font-size: 20px; /* Tamaño del texto */
+}
+
+/* Estilo de los campos de entrada y el menú desplegable */
+input, select {
+    width: 80%; /* Ajusta el ancho al 80% del formulario */
+    padding: 8px; /* Espaciado interno para facilitar la lectura */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 1px solid #726464; /* Borde del campo con color gris oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #a71a1a; /* Color de fondo rojo oscuro */
+    color: white; /* Texto en color blanco */
+    border: none; /* Elimina bordes */
+    padding: 10px; /* Espaciado interno */
+    width: 50%; /* Ajusta el ancho al 50% del formulario */
+    border-radius: 30px; /* Bordes redondeados para apariencia moderna */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #3fc1ca; /* Cambia el color de fondo a un azul celeste */
+}
