@@ -1,0 +1,17 @@
+.icon-button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre icono y texto */
+    transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
